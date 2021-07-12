@@ -217,8 +217,7 @@ function suka() {
         $('#alert-suka').remove();
         penutup();
         window.open(
-            `https://api.whatsapp.com/send?phone=6281246768627&text=Nilainyaaa adalahhhh ${text}, Love u sayanggg❤️, Nanti hadiahnyaa menyusul yawww!!! 😋
-            `);
+            `https://api.whatsapp.com/send?phone=6281246768627&text=Nilainyaaa adalahhhh ${text}, Love u sayanggg❤️, Nanti hadiahnyaa menyusul yawww!!! 😋`);
     })
 }
 
@@ -234,9 +233,7 @@ function tidak() {
         let text = $('#form').val();
         penutup();
         $('#alert-tidak').remove();
-        window.open(`https://api.whatsapp.com/send?phone=6281246768627&text=Nilainyaaa adalahhhh ${text}
-        
-        harus dikirim ni awas enggakkk!!`);
+        window.open(`https://api.whatsapp.com/send?phone=6281246768627&text=Nilainyaaa adalahhhh ${text}, Love u sayanggg❤️, Nanti hadiahnyaa menyusul yawww!!! 😋`);
     })
 }
 
