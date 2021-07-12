@@ -143,13 +143,13 @@ function ucapan6() {
     alert1Btn(id, title, caption, btnAcc);
     $('#alert-ucapan6').find("button").click(function () {
         $('#alert-ucapan6').remove();
-        ucapan7();
+        hitungMundur();
     })
 }
 
 function ucapan7() {
-    title = ":p";
-    caption = "yayay sekarang beneran kok qiqiqiqi Ngakak AbIEZZZzz";
+    title = "hahaha kena tipu dehh :p";
+    caption = "yayaya sekarang beneran kok qiqiqiqi Ngakak AbIEZZZzz";
     btnAcc = "Play";
     id = "alert-ucapan7"
 
@@ -157,7 +157,9 @@ function ucapan7() {
     $('#alert-ucapan7').find("button").click(function () {
         $('#alert-ucapan7').remove();
         $('#video-juli').fadeOut();
-        hitungMundur();
+        $('.bg-music').trigger('pause');
+        $('body').css("overflow", "visible")
+        mainVideo();
     })
 }
 
@@ -167,10 +169,7 @@ function hitungMundur() {
     let downloadTimer = setInterval(function () {
         if (timeleft <= 0) {
             clearInterval(downloadTimer);
-            $('.timer-container').fadeOut();
-            $('.bg-music').trigger('pause');
-            $('body').css("overflow", "visible")
-            mainVideo();
+            ucapan7();
         } else {
             document.getElementById("countdown").innerHTML = timeleft;
         }
