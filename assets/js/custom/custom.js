@@ -158,7 +158,8 @@ function ucapan7() {
     $('#alert-ucapan7').find("button").click(function () {
         $('#alert-ucapan7').remove();
         $('.bg-music').trigger('pause');
-        $('body').css("overflow", "visible")
+        $('body').css("overflow", "visible");
+        $('.timer-container').fadeOut();
         mainVideo();
     })
 }
