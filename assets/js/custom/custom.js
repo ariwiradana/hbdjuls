@@ -144,6 +144,7 @@ function ucapan6() {
     $('#alert-ucapan6').find("button").click(function () {
         $('#alert-ucapan6').remove();
         hitungMundur();
+        $('#video-juli').fadeOut();
     })
 }
 
@@ -156,7 +157,6 @@ function ucapan7() {
     alert1Btn(id, title, caption, btnAcc);
     $('#alert-ucapan7').find("button").click(function () {
         $('#alert-ucapan7').remove();
-        $('#video-juli').fadeOut();
         $('.bg-music').trigger('pause');
         $('body').css("overflow", "visible")
         mainVideo();
