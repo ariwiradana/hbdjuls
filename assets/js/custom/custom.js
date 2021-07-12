@@ -216,7 +216,11 @@ function suka() {
         let text = $('#form').val();
         $('#alert-suka').remove();
         penutup();
-        window.open(`https://api.whatsapp.com/send?phone=6281246768627&text=Nilainyaaa adalahhhh ${text}`);
+        window.open(
+            `https://api.whatsapp.com/send?phone=6281246768627&text=Nilainyaaa adalahhhh ${text}
+            Love u sayanggg❤️ wkwkwkwk 😋
+            Nanti hadiahnyaa menyusul yawww!!!
+            `);
     })
 }
 
